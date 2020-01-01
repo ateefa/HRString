@@ -1,0 +1,32 @@
+
+# import collections
+
+# s = input().strip()
+# freq = collections.Counter(s)
+# values = list(freq.values())
+# values.sort()
+# if values.count(values[0]) == len(values) or (values.count(values[0]) == len(values) - 1 and values[-1] - values[-2] == 1) or (values.count(values[-1]) == len(values) - 1 and values[0] == 1):
+# 	result="YES"
+# else: "NO"
+# print(result)
+# from collections import Counter
+# def isValid(s):
+# 	dic=dict()
+# 	for i in s:
+# 		if i not in dic:
+# 			dic[i]=1
+# 		else:
+# 			dic[i]+=1
+# 	Min=min(dic.values())
+# 	Max=max(dic.values())
+# 	countMin=Counter(dic.values())[Min]
+# 	countMax=Counter(dic.values())[Max]
+# 	# print(dic,Max,Min,countMax,countMin)
+# 	if Max-Min>=2 or countMax >=2 or countMax+countMin!=len(dic):
+# 		return "NO"
+# 	else:
+# 		return "YES"	
+
+# s = input()
+# result = isValid(s)
+# print(result)
